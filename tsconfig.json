@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "commonjs",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2018",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "paths": {
+      "@env": ["./src/enviroment"],
+      "@components": ["./src/components/index"],
+      "@hooks": ["./src/hooks/index"],
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "@types"]
+}

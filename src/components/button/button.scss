@@ -1,0 +1,11 @@
+@import '@core';
+
+.button {
+  @include flex(center, center);
+  width: fit-content;
+  font-size: 2rem;
+  color: $white;
+  border: 0;
+  background: green;
+  outline: none;
+}
